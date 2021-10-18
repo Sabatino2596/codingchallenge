@@ -1,0 +1,98 @@
+*{
+
+
+}
+body{
+  background-image: url(img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contenitore{
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 70%;
+  height: 600px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+
+ header{
+  padding-top: 40px;
+}
+
+header img{
+  width: 200px;
+  display: block;
+  margin: auto;
+}
+
+.text-logo{
+  text-align: center;
+  font-family: sans-serif;
+  color: LIME;
+  margin-bottom: 0px;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  width: 78%;
+  background-color: LIME;
+  margin: auto;
+  padding: 10px;
+  margin-top: 0px;
+}
+
+nav :first-child{
+  position: relative;
+  right: 10px;
+}
+nav :last-child{
+  position: relative;
+  left: 10px;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+    color: white;
+}
+
+main h2{
+  display: inline-block;
+  font-family: sans-serif;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+main p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+}
+
+.charge1{
+  width: 40%;
+  height: 30px;
+  background-color: red;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.charge2{
+  width: 70%;
+  height: 30px;
+  background-color: blue;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.charge3{
+  width: 20%;
+  height: 30px;
+  background-color: yellow;
+  border: 1px solid black;
+  border-radius: 5px;
+}
